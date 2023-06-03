@@ -1,5 +1,7 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const app = express();
+app.use(bodyParser.json());
 
 // Assuming you have an array of books stored in a JavaScript file
 const books = require('./booksdb');
@@ -66,11 +68,36 @@ app.get('/api/books/:isbn/review', (req, res) => {
 });
 
 // Task 6: Register new user
-app.post("/page", (req, res) => {
-  res.send("User registered successfully");
+app.post("/api/users/register", (req, res) => {
+  const { email, password } = req.body;
+
+  // Check if email and password are provided
+  if (!email || !password) {
+    res.status(400).json({ error: 'Email and password are required' });
+  } else {
+    // Save the user information to the database or perform necessary actions
+    // Replace the console.log statement with the code to save the user information
+    console.log(`User registered: email - ${email}, password - ${password}`);
+    res.send("User registered successfully");
+  }
 });
 
 // Endpoint for user login
+app.get("/api/users/login", (req, res) => {
+  const { email, password } = req.query;
+
+  // Check if email and password are provided
+  if (!email || !password) {
+    res.status(400).json({ error: 'Email and password are required' });
+  } else {
+    // Perform the login logic here
+    // Replace the console.log statement with the code for login authentication
+    console.log(`User logged in: email - ${email}, password - ${password}`);
+    res.send("User logged in successfully");
+  }
+});
+
+// Task 7: Endpoint for user login
 app.get("/page", (req, res) => {
   res.send("User logged in successfully");
 });
