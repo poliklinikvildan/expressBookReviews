@@ -14,7 +14,7 @@ Task 5: Get book review - This endpoint (/api/books/:isbn/review) retrieves the 
 
 Task 6: Register new user - This endpoint (/page) handles the registration of a new user and responds with a success message.
 
-Endpoint for user login - This endpoint (/page) handles user login and responds with a success message.
+Endpoint for user login - This endpoint (/page) handles user login and responds with a success message. 
 
 Task 8: Add/modify a book review - This endpoint (/api/books/:isbn/review) adds or modifies the review of a specific book based on the provided ISBN. If the book is found and the current review matches the expected value, the review is replaced with a new review text, and a success message is returned. Otherwise, a 400 or 404 error is returned.
 
