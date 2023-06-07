@@ -2,12 +2,13 @@ Coursera NODEJS Application Project
 
 The provided index.js code showcases a well-implemented Node.js application for setting up a RESTful API server using the Express framework. The code includes various endpoints that allow users to perform essential operations on a collection of books. Here's a description of the functionalities implemented:
 
+Task 1: Get the book list available in the shop - This endpoint (/api/books) retrieves the list of books available, excluding the review property from the response.
+
 <div style="border: 1px solid #ccc; padding: 10px; display: inline-block;">
-  <img src="https://user-images.githubusercontent.com/134360221/aea42c0b-3c14-473d-ab4e-a90659738682.png" alt="task1-get allbooks" width="300px">
+  <a href="https://github.com/poliklinikvildan/expressBookReviews/assets/134360221/aea42c0b-3c14-473d-ab4e-a90659738682" target="_blank">
+    <img src="https://github.com/poliklinikvildan/expressBookReviews/assets/134360221/aea42c0b-3c14-473d-ab4e-a90659738682" alt="Image" width="300px">
+  </a>
 </div>
-
-Task 1: Get the book list available in the shop - This endpoint (/api/books) retrieves the list of books available, excluding the review property from the response.![1-getallbooks-coursera](https://github.com/poliklinikvildan/expressBookReviews/assets/134360221/aea42c0b-3c14-473d-ab4e-a90659738682)
-
 
 Task 2: Get the books based on ISBN - This endpoint (/api/books/:isbn) retrieves a specific book based on the provided ISBN. If the book is found, it is returned in the response; otherwise, a 404 error is returned.
 
