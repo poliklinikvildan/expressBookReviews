@@ -6,7 +6,7 @@ The provided index.js code showcases a well-implemented Node.js application for 
 
 Task 1: Get the book list available in the shop - This endpoint (/api/books) retrieves the list of books available, excluding the review property from the response.
 <div style="border: 1px solid #ccc; padding: 10px; display: inline-block;">
-  <img src="https://user-images.githubusercontent.com/134360221/244002023-0b47aee1-47a7-4613-8083-c6caffb946f3.png" alt="task1" width="300px">
+  <img src="https://user-images.githubusercontent.com/134360221/a56b238f-499a-4d35-8dd1-a0ffb2616074.png" alt="task1" width="300px">
 </div>
 
 Task 2: Get the books based on ISBN - This endpoint (/api/books/:isbn) retrieves a specific book based on the provided ISBN. If the book is found, it is returned in the response; otherwise, a 404 error is returned.
