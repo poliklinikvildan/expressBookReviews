@@ -3,9 +3,8 @@ Coursera NODEJS Application Project
 The provided index.js code showcases a well-implemented Node.js application for setting up a RESTful API server using the Express framework. The code includes various endpoints that allow users to perform essential operations on a collection of books. Here's a description of the functionalities implemented:
 
 <div style="border: 1px solid #ccc; padding: 10px; display: inline-block;">
-  <img src="https://user-images.githubusercontent.com/134360221/244002023-0b47aee1-47a7-4613-8083-c6caffb946f3.png" alt="task1-get allbooks" width="300px">
+  <img src="https://user-images.githubusercontent.com/134360221/134360221/244052877-a56b238f-499a-4d35-8dd1-a0ffb2616074.png" alt="task1-get allbooks" width="300px">
 </div>
-
 
 Task 1: Get the book list available in the shop - This endpoint (/api/books) retrieves the list of books available, excluding the review property from the response.
 
