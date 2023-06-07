@@ -7,7 +7,7 @@ Task 1: Get the book list available in the shop - This endpoint (/api/books) ret
 
 <div style="border: 1px solid #ccc; padding: 10px; display: flex; justify-content: center;">
   <a href="https://github.com/poliklinikvildan/expressBookReviews/assets/134360221/aea42c0b-3c14-473d-ab4e-a90659738682" target="_blank">
-    <img src="https://github.com/poliklinikvildan/expressBookReviews/assets/134360221/aea42c0b-3c14-473d-ab4e-a90659738682" alt="Image" style="width: 120%;">
+    <img src="https://github.com/poliklinikvildan/expressBookReviews/assets/134360221/aea42c0b-3c14-473d-ab4e-a90659738682" alt="Image" style="width: 70%;">
   </a>
 </div>
 
